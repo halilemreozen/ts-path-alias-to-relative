@@ -16,12 +16,15 @@ npx @halilemreozen/ts-path-alias-to-relative -
 ```
 
 🤝 Contributing 🤝
+
 Contributions are always welcome! Please feel free to open an issue or create a pull request.
 
 📜 License 📜
+
 This project is licensed under the AGPL-3.0-only - see the LICENSE.txt file for details.
 
 🙏 Acknowledgements 🙏
+
 - Be the first person supports this project!
 
 📫 Contact 📫
