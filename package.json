@@ -1,0 +1,38 @@
+{
+    "name": "@halilemreozen/ts-path-alias-to-relative",
+    "version": "1.0.0",
+    "publishConfig": {
+        "access": "public"
+    },
+    "description": "ts-path-alias-to-relative is an NPX package that converts TypeScript path aliases to relative paths. It reads your tsconfig, identifies aliases, and replaces them, simplifying your TypeScript projects.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "jest index.test.js"
+    },
+    "bin": {
+        "ts-path-alias-to-relative": "./cli.js"
+    },
+    "keywords": [
+        "typescript",
+        "alias",
+        "paths",
+        "relative",
+        "transform",
+        "replace"
+    ],
+    "author": "Halil Emre ÖZEN <halilemreozen@windowslive.com>",
+    "license": "AGPL-3.0-only",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "jsonc-parser": "^3.2.1",
+        "yargs": "^17.7.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.24.4",
+        "@babel/preset-env": "^7.24.4",
+        "babel-jest": "^29.7.0",
+        "jest": "^29.7.0",
+        "mock-fs": "^5.2.0"
+    }
+}
